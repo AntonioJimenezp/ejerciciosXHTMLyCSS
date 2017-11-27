@@ -1,0 +1,50 @@
+body {
+    background-color: #fdfbf1;
+}
+
+
+h1{
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+}
+h2{
+    background-color: burlywood;
+    color: white;
+}
+h3{
+    background-color: burlywood;
+    color: white;
+}
+h4{
+    background-color: burlywood;
+    color: white;
+}
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-roman
+}
+ul ul{
+    list-style-type: circle;
+}
+
+
+li:first-letter{
+    font-style: italic;
+    font-size: 1.25em;
+}
+dl{
+    background-color: #f0e7db;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: burlywood;
+}
+dt {
+    font-variant: small-caps;
+    font-weight: bold;
+}

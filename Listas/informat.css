@@ -1,0 +1,35 @@
+body {
+    font-family: verdana, sans-serif;
+}
+
+dt {
+    color: blue;
+}
+
+p {
+    background-color: darkgray;
+    color: green;
+}
+
+abbr {
+    color: deepskyblue;
+}
+
+strong {
+    color: red;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+span.w {
+    font-weight: bold;
+    color: red;
+}
+.sub{
+    text-decoration: underline;
+}
