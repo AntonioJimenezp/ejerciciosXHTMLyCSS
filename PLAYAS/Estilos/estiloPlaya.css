@@ -1,0 +1,119 @@
+/*
+Paleta de color usada:
+-Naranja: #E8790C;
+-NaranjaClaro: #FFB813;
+-Amarillo: #FFE228;
+-VerdeAzulado: #2FE8A9;
+-Azulraro: #008689;
+-rojo: #FF0000;
+-violeta: #731268
+*/
+
+body {
+    background: #E8790C;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 350%;
+    background-color: #008689
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    background-color: #008689
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 110%
+}
+
+p.sfnt{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 90%
+}
+
+strong {
+    font-size: 110%;
+    color: #0B1D73
+}
+
+em{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 85%;
+    letter-spacing: -1px
+}
+
+table ,th,tr,td{
+    border: 1.5px solid #FF0000;
+
+}
+
+th {
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+tr,
+td {
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+ul {
+    text-decoration: underline;
+}
+
+ul a,
+ol a,
+ul em {
+    font-weight: bold;
+    letter-spacing: normal;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ol {
+    text-decoration: underline;
+}
+
+ol ol {
+    font-style: oblique
+}
+
+a {
+    text-decoration: none
+}
+
+ul a {
+    target="_blank";
+}
+
+img {
+    border: 2px solid;
+}
+
+.sub {
+    text-decoration: underline;
+}
+
+ul a:link {
+    background-color: #FFB813
+}
+
+a:visited {
+    color: #731268;
+}
+
+ul a:hover,
+a:hover {
+    color: #008689;
+    background-color: black;
+}
