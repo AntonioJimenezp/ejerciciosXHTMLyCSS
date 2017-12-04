@@ -36,7 +36,7 @@ p {
     font-size: 110%
 }
 
-p.sfnt{
+p.sfnt {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 90%
 }
@@ -46,24 +46,27 @@ strong {
     color: #0B1D73
 }
 
-em{
+em {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 85%;
     letter-spacing: -1px
 }
 
-table ,th,tr,td{
-    border: 1.5px solid #FF0000;
-
+table,
+th {
+    border: 3px solid #FF0000;
+    border-collapse: collapse
 }
 
 th {
     text-decoration: underline;
     font-variant: small-caps;
+    background-color: coral
 }
 
 tr,
 td {
+    border: 1.5px solid #FF0000;
     text-decoration: none;
     font-family: "Comic Sans MS", cursive, sans-serif
 }
