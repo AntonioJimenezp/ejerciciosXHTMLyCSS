@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Untitled Document</title>
+</head>
+<style>
+    .collapse{
+        border-collapse: collapse;
+        border: 2px solid red;
+    }
+
+    .separado{
+        border-collapse: separate;
+        border: 2px solid green;
+    }
+    .black{
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+
+</style>
+<body>
+<table class="collapse">
+    <tr>
+        <th colspan="2">border-collapse: collapse</th>
+    </tr>
+    <tr> <td class="black">Borde de tabla rojo</td>
+        <td class="black">Borde de celda negro</td>
+    </tr>
+</table>
+<p></p>
+<table class="separado">
+   <tr>
+       <th colspan="2">border-collapse: separate</th>
+   </tr>
+    <tr>
+        <td class="black">Borde de tabla verde</td>
+        <td class="black">Borde de celda negro</td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
