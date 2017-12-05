@@ -1,12 +1,30 @@
 /*
 Paleta de color usada:
+**************************************************************************************************************************
+https://color.adobe.com/es/create/color-wheel/?base=2&rule=Custom&selected=4&name=Mi%20tema%20de%20Color&mode=rgb&rgbvalues=0.9098039215686274,0.796078431372549,0.5686274509803921,1,0.7215686274509804,0.07450980392156863,0.9098039215686274,0.6431372549019608,0.36470588235294116,0.1843137254901961,0.9098039215686274,0.6627450980392157,0,0.5254901960784314,0.5372549019607843&swatchOrder=0,1,2,3,4
+**************************************************************************************************************************
 -Naranja arena: #E8CB91;
 -NaranjaClaro: #FFB813;
--Amarillo: #FFE228;
+-Amarillo: #E8A45D;
 -VerdeAzulado: #2FE8A9;
 -Azulraro: #008689;
 -rojo: #FF0000;
 -violeta: #731268
+*/
+
+/*
+ORGANIZACION del CSS:
+*******************************
+*   -body                     *
+*   -Cabeceras (h)            *
+*   -Parrafos                 *
+*   -Modificadores de texto   *
+*   -tablas                   *
+*   -listas                   *
+*   -imagenes                 *
+*   -links                    *
+*   -clases propias           *
+*******************************
 */
 
 body {
@@ -36,11 +54,6 @@ p {
     font-size: 110%
 }
 
-p.sfnt {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 90%
-}
-
 strong {
     font-size: 110%;
     color: #0B1D73
@@ -48,28 +61,40 @@ strong {
 
 em {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 85%;
     letter-spacing: -1px
 }
 
-table,
-th {
-    border: 3px solid #FF0000;
-    border-collapse: collapse
+table {
+    border: 2px solid #F00;
+    border-collapse: collapse;
+    width: 80%
 }
 
 th {
+    border: 3px solid #F00;
     text-decoration: underline;
     font-variant: small-caps;
-    background-color: coral
+    padding: 5px;
+    background-color: coral;
+    font-size: 110%;
 }
 
-tr,
-td {
-    border: 1.5px solid #FF0000;
-    text-decoration: none;
-    font-family: "Comic Sans MS", cursive, sans-serif
+tr td:nth-child(odd) {
+    background-color: #E8A45D;
 }
+
+tr td:nth-child(even) {
+    border-right: 1px solid #f00;
+}
+
+td {
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 5px 5px;
+    text-align: left;
+    border-bottom: 1px solid #f00;
+}
+
 
 ul {
     text-decoration: underline;
@@ -91,24 +116,20 @@ ol ol {
     font-style: oblique
 }
 
-a {
-    text-decoration: none
+img {
+    border: 2px solid;
+}
+
+ul a:link {
+    background-color: #FFB813
 }
 
 ul a {
     target="_blank";
 }
 
-img {
-    border: 2px solid;
-}
-
-.sub {
-    text-decoration: underline;
-}
-
-ul a:link {
-    background-color: #FFB813
+a {
+    text-decoration: none
 }
 
 a:visited {
@@ -119,4 +140,13 @@ ul a:hover,
 a:hover {
     color: #008689;
     background-color: black;
+}
+
+p.sfnt {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 100%
+}
+
+.sub {
+    text-decoration: underline;
 }
