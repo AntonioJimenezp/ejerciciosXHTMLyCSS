@@ -1,7 +1,7 @@
 
 # Primer Trimestre "Trabajo Playas"
 
-[Playa de San Lorenzo](https://antoniojimenezp.github.io/ejerciciosXHTMLyCSS/PLAYAS/SanLorenzo.html).
+[Playa de San Lorenzo](https://antoniojimenezp.github.io/ejerciciosXHTMLyCSS/PLAYAS/SanLorenzo.html)
 
 [Playa de Poniente](https://antoniojimenezp.github.io/ejerciciosXHTMLyCSS/PLAYAS/Poniente.html)
 
