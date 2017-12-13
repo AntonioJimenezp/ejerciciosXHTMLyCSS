@@ -121,11 +121,7 @@ img {
 }
 
 ul a:link {
-    background-color: #FFB813
-}
-
-ul a {
-    target="_blank";
+    background-color: #FFB813;
 }
 
 a {
