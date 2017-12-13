@@ -1,7 +1,7 @@
 
 # Primer Trimestre "Trabajo Playas"
 
-[Paya de San Lorenzo](https://github.com/AntonioJimenezp/ ejerciciosXHTMLyCSS/PLAYAS/SanLorenzo.html
+[Paya de San Lorenzo](https://github.com/AntonioJimenezp/ejerciciosXHTMLyCSS/PLAYAS/SanLorenzo.html
 )
 
 
