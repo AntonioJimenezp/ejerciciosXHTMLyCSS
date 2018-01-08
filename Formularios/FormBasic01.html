@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+</head>
+
+<body>
+    <h3>Datos de cliente</h3>
+
+    <form action="respuesta.html" method="get">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="nombre">
+            <br>
+            <label for="NIF">NIF:</label>
+            <input type="text" name="NIF" id="NIF">
+        </p>
+        <p>
+            Tipo de Habitación: <br>
+            <input type="radio" name="tipo" value="I"> Individual <br>
+            <input type="radio" name="tipo" value="D" checked="checked"> Doble
+        </p>
+        <p>
+            Opciones: <br>
+            <input type="checkbox" name="desayuno" value="DH" id="desayuno">
+            <label for="desayuno">Desayuno en la habitación</label>
+            <br>
+            <input type="checkbox" name="Jacuzzi" value="Jacuzzi" id="jacuzzi">
+            <label for="jacuzzi">Jacuzzi</label>
+            <br>
+            <input type="checkbox" name="Wi-Fi" value="Wi-Fi" id="wifi" checked>
+            <label for="wifi">Wi-Fi</label>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+
+</body>
+
+</html>
