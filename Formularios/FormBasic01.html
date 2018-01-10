@@ -5,25 +5,35 @@
     <meta charset="UTF-8">
     <title>Untitled Document</title>
 </head>
+<style>
+    body {
+        background-color: bisque;
+    }
+
+    h3 {
+        color: red;
+    }
+
+</style>
 
 <body>
     <h3>Datos de cliente</h3>
 
     <form action="respuesta.html" method="get">
         <p>
-            <label for="nombre">Nombre:</label>
+            <label for="nombre"><span class="title">Nombre:</span></label><br>
             <input type="text" name="Nombre" id="nombre">
             <br>
-            <label for="NIF">NIF:</label>
+            <label for="NIF"><span class="title">NIF:</span></label><br>
             <input type="text" name="NIF" id="NIF">
         </p>
         <p>
-            Tipo de Habitación: <br>
+            <span class="title">Tipo de Habitación:</span> <br>
             <input type="radio" name="tipo" value="I"> Individual <br>
             <input type="radio" name="tipo" value="D" checked="checked"> Doble
         </p>
         <p>
-            Opciones: <br>
+            <span class="title">Opciones:</span> <br>
             <input type="checkbox" name="desayuno" value="DH" id="desayuno">
             <label for="desayuno">Desayuno en la habitación</label>
             <br>
@@ -33,8 +43,8 @@
             <input type="checkbox" name="Wi-Fi" value="Wi-Fi" id="wifi" checked>
             <label for="wifi">Wi-Fi</label>
         </p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
+        <input type="submit" class="boton" value="Enviar">
+        <input type="reset" class="boton" value="Borrar">
     </form>
 
 

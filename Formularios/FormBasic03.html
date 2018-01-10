@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta televisiva</title>
+</head>
+<style>
+
+
+</style>
+
+<body>
+    <h1>Encuesta televisiva</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="pregunta">Edad:</span>
+                            <input type="text" name="edad" size="4" maxlength="3"></td>
+                        <td colspan="2"><span class="pregunta">Habitantes de la casa:</span>
+                            <select name="habitantes">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 o más</option>
+                    </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pregunta">Sexo:</span>
+                            <input type="radio" name="Sexo" value="H">Hombre
+                            <input type="radio" name="Sexo" value="M">Mujer
+                        </td>
+                        <td colspan="2"><span class="pregunta">Televisores en la casa:</span>
+                            <input type="radio" name="nteles" value="0">0
+                            <input type="radio" name="nteles" value="1">1
+                            <input type="radio" name="nteles" value="2">2
+                            <input type="radio" name="nteles" value="3">3
+                            <input type="radio" name="nteles" value="4">4 o más
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><span class="pregunta">Lugares en los que hay televisión en casa:</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="comedor" id="comedor" value="comedor">
+                            <label for="comedor">Comedor</label>
+                        </td>
+                        <td><input type="checkbox" name="Cocina" id="cocina" value="cocina">
+                            <label for="cocina">Cocina</label></td>
+                        <td><input type="checkbox" name="Baño" value="baño" id="baño">
+                            <label for="baño">Cuarto de Baño</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="DormPadres" value="DormPadres" id="DormPadres">
+                            <label for="DormPadres">Dormitorio Padres</label>
+                        </td>
+                        <td><input type="checkbox" name="DormHijos" value="DormHijos" id="DormHijos"><label for="DormHijos">Dormitorio Hijos</label></td>
+                        <td><input type="checkbox" name="otros" value="otros" id="otros"><label for="otros">Otros</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="der">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar" name="Reset">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
