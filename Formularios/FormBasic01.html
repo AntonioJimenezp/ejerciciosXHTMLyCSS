@@ -10,43 +10,71 @@
         background-color: bisque;
     }
 
-    h3 {
+    fieldset {
+        width: 400px;
+        height: 400px;
+        border: 2px solid brown
+    }
+
+    h2 {
         color: red;
+    }
+
+    .title {
+        color: red;
+        font-size: 125%;
+    }
+
+    input[type="text"] {
+        width: 80%;
+        padding: 7px 5px;
+        color: black;
+        background-color: aqua;
+        border: 1px solid brown;
+    }
+
+    input[type="submit"],
+    [type="reset"] {
+        color: white;
+        background-color: red;
+        padding: 5px 15px;
+        border: 1px solid brown;
     }
 
 </style>
 
 <body>
-    <h3>Datos de cliente</h3>
+    <h2>Datos de cliente</h2>
+    <fieldset>
+        <form action="respuesta.html" method="get">
+            <p>
+                <label for="nombre"><span class="title">Nombre:</span></label><br>
+                <input type="text" name="Nombre" id="nombre">
+                <br>
+                <label for="NIF"><span class="title">NIF:</span></label><br>
+                <input type="text" name="NIF" id="NIF">
+            </p>
+            <p>
+                <span class="title">Tipo de Habitación:</span> <br>
+                <input type="radio" name="tipo" value="I"> Individual <br>
+                <input type="radio" name="tipo" value="D" checked="checked"> Doble
+            </p>
+            <p>
+                <span class="title">Opciones:</span> <br>
+                <input type="checkbox" name="desayuno" value="DH" id="desayuno">
+                <label for="desayuno">Desayuno en la habitación</label>
+                <br>
+                <input type="checkbox" name="Jacuzzi" value="Jacuzzi" id="jacuzzi">
+                <label for="jacuzzi">Jacuzzi</label>
+                <br>
+                <input type="checkbox" name="Wi-Fi" value="Wi-Fi" id="wifi" checked>
+                <label for="wifi">Wi-Fi</label>
+            </p>
+            <input type="submit" class="boton" value="Enviar">
+            <input type="reset" class="boton" value="Borrar">
 
-    <form action="respuesta.html" method="get">
-        <p>
-            <label for="nombre"><span class="title">Nombre:</span></label><br>
-            <input type="text" name="Nombre" id="nombre">
-            <br>
-            <label for="NIF"><span class="title">NIF:</span></label><br>
-            <input type="text" name="NIF" id="NIF">
-        </p>
-        <p>
-            <span class="title">Tipo de Habitación:</span> <br>
-            <input type="radio" name="tipo" value="I"> Individual <br>
-            <input type="radio" name="tipo" value="D" checked="checked"> Doble
-        </p>
-        <p>
-            <span class="title">Opciones:</span> <br>
-            <input type="checkbox" name="desayuno" value="DH" id="desayuno">
-            <label for="desayuno">Desayuno en la habitación</label>
-            <br>
-            <input type="checkbox" name="Jacuzzi" value="Jacuzzi" id="jacuzzi">
-            <label for="jacuzzi">Jacuzzi</label>
-            <br>
-            <input type="checkbox" name="Wi-Fi" value="Wi-Fi" id="wifi" checked>
-            <label for="wifi">Wi-Fi</label>
-        </p>
-        <input type="submit" class="boton" value="Enviar">
-        <input type="reset" class="boton" value="Borrar">
-    </form>
-
+        </form>
+    </fieldset>
 
 </body>
 

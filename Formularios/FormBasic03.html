@@ -6,12 +6,55 @@
     <title>Encuesta televisiva</title>
 </head>
 <style>
+    body {
+        background-color: cornflowerblue;
+    }
 
+    h1 {
+        letter-spacing: 10px;
+        text-align: right;
+    }
+
+    form {
+        margin: 10px 30px
+    }
+
+    fieldset {
+        margin-left: 50px;
+        border-style: dashed;
+        border-color: blue;
+    }
+
+    legend {
+        background-color: blue;
+        color: white;
+        padding: 5px 20px;
+        letter-spacing: 5px;
+        font-size: 120%
+    }
+
+    td {
+        padding: 5px 10px;
+    }
+
+    .subrayado {
+        border-bottom: 6px blue dashed;
+    }
+
+    .pregunta {
+        text-decoration: underline;
+    }
+
+    input[type="submit"],
+    [type="reset"],
+    td.der {
+        text-align: right;
+    }
 
 </style>
 
 <body>
-    <h1>Encuesta televisiva</h1>
+    <h1><span class="subrayado">Encuesta televisiva</span></h1>
     <form action="" method="get">
         <fieldset>
             <legend>Datos personales</legend>
@@ -62,8 +105,8 @@
                             <input type="checkbox" name="DormPadres" value="DormPadres" id="DormPadres">
                             <label for="DormPadres">Dormitorio Padres</label>
                         </td>
-                        <td><input type="checkbox" name="DormHijos" value="DormHijos" id="DormHijos"><label for="DormHijos">Dormitorio Hijos</label></td>
-                        <td><input type="checkbox" name="otros" value="otros" id="otros"><label for="otros">Otros</label></td>
+                        <td><input type="checkbox" name="DormHijos" value="DormHijos" id="DormHijos"><label for="DormHijos"> Dormitorio Hijos</label></td>
+                        <td><input type="checkbox" name="otros" value="otros" id="otros"><label for="otros"> Otros</label></td>
                     </tr>
                     <tr>
                         <td colspan="3" class="der">
@@ -71,6 +114,13 @@
                             <input type="reset" value="Borrar" name="Reset">
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <input type="date" name="bday">
+                        </td>
+                        <td colspan="2"><input type=color name=favcolor/><strong>Selecciona tu color Favorito</strong></td>
+                    </tr>
+                    <input type="search">
                 </tbody>
             </table>
         </fieldset>
