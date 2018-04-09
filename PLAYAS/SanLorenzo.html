@@ -107,7 +107,7 @@
 
 
     <p><a href="#inicio">Volver al inicio</a></p>
-    <form action="respuesta.html">
+    <form action="playasVerificacion.php" method="post">
         <fieldset>
             <legend>Formulario de Informacion</legend>
                <p>¿Que le ha parecido la pagina?</p>
@@ -124,27 +124,27 @@
                 <p>¿Que apartado de la pagina le ha resultado mas util?</p>
                 <table>
                     <tr>
-                        <td><input type="checkbox" name="Checkbox" id="caracteristicas" value="caracteristicas">
+                        <td><input type="checkbox" name="car" id="caracteristicas" value="caracteristicas">
                         <label for="caracteristicas">Caracteristicas y condiciones de baño</label></td>
-                        <td><input type="checkbox" name="checkbox" id="servicios" value="servicios">
+                        <td><input type="checkbox" name="serv" id="servicios" value="servicios">
                         <label for="servicios">Servicios</label></td>
-                        <td><input type="checkbox" name="checkbox" id="deportes" value="deportes">
+                        <td><input type="checkbox" name="deportes" id="deportes" value="deportes">
                         <label for="servicios">Deportes</label></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="checkbox" id="reconocimiento" value="reconocimiento">
+                        <td><input type="checkbox" name="recon" id="reconocimiento" value="reconocimiento">
                         <label for="reconocimiento">Reconocimientos</label></td>
-                        <td colspan="2"><input type="checkbox" name="checkbox" id="datos" value="datos">
+                        <td colspan="2"><input type="datos" name="checkbox" id="datos" value="datos">
                         <label for="datos">Datos de la playa</label></td>
                     </tr>
                 </table>
-                <p><input type="submit" value="Enviar">
+                <p><input type="submit" value="Enviar" name="Enviar">
                 <input type="reset" value="Borrar" name="Reset"></p>
 
         </fieldset>
     </form>
 
-    <p>Página realizada por: <span class="sub">Antonio Jiménez Pérez-Nava</span>, para un trabajo del módulo "Lenguaje de Marcas"</p>
+    <p>Página realizada por: <span class="sub">Antonio Jiménez Pérez-Nava</span>, para el módulo "Lenguaje de Marcas"</p>
 
 </body>
 
