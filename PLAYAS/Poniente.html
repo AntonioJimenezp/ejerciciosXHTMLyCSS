@@ -52,6 +52,43 @@
     <li><a href="SanLorenzo.html" title="Playa de San Lorenzo">San Lorenzo</a></li>
 </ul>
 <p><a href="#inicio">Volver al inicio</a></p>
-<p>Página realizada por: <span class="sub">Antonio Jiménez Pérez-Nava</span>, para un trabajo del módulo "Lenguaje de Marcas"</p>
+    <form action="respuesta.html">
+        <fieldset>
+            <legend>Formulario de Informacion</legend>
+               <p>¿Que le ha parecido la pagina?</p>
+                <textarea name="comentarios" cols=100 rows="0">Escriba aqui su comentario</textarea>
+                <p>Ha visitado alguna vez esta playa</p>
+                <input type="radio" name="opinion" id="si">
+                <label for="si">Si</label><br>
+
+                <input type="radio" name="opinion" id="no">
+                <label for="no">No</label><br>
+
+                <input type="radio" name="opinion" id="nop">
+                <label for="no">No, pero lo haré</label>
+                <p>¿Que apartado de la pagina le ha resultado mas util?</p>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="Checkbox" id="caracteristicas" value="caracteristicas">
+                        <label for="caracteristicas">Caracteristicas y condiciones de baño</label></td>
+                        <td><input type="checkbox" name="checkbox" id="servicios" value="servicios">
+                        <label for="servicios">Servicios</label></td>
+                        <td><input type="checkbox" name="checkbox" id="deportes" value="deportes">
+                        <label for="servicios">Deportes</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="checkbox" id="reconocimiento" value="reconocimiento">
+                        <label for="reconocimiento">Reconocimientos</label></td>
+                        <td colspan="2"><input type="checkbox" name="checkbox" id="datos" value="datos">
+                        <label for="datos">Datos de la playa</label></td>
+                    </tr>
+                </table>
+                <p><input type="submit" value="Enviar">
+                <input type="reset" value="Borrar" name="Reset"></p>
+
+        </fieldset>
+    </form>
+
+<p>Página realizada por: <span class="sub">Antonio Jiménez Pérez-Nava</span>, para el módulo "Lenguaje de Marcas"</p>
 </body>
 </html>

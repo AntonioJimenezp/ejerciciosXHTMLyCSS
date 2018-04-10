@@ -138,6 +138,14 @@ a:hover {
     background-color: black;
 }
 
+fieldset legend{
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 110%;
+
+}
+
 p.sfnt {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 100%
