@@ -146,6 +146,24 @@ fieldset legend{
 
 }
 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav{
+    padding: 1.0em 0.5em;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
 p.sfnt {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 100%
