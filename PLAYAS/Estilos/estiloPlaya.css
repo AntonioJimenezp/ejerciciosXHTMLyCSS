@@ -36,7 +36,8 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 350%;
-    background-color: #008689
+    background-color: #008689;
+    text-transform: uppercase
 }
 
 h2,
@@ -67,7 +68,7 @@ em {
 table {
     border: 2px solid #F00;
     border-collapse: collapse;
-    width: 80%
+    width: 50%
 }
 
 th {
@@ -138,7 +139,7 @@ a:hover {
     background-color: black;
 }
 
-fieldset legend{
+fieldset legend {
     text-decoration: underline;
     font-family: sans-serif;
     text-align: center;
@@ -146,7 +147,8 @@ fieldset legend{
 
 }
 
-header, footer {
+header,
+footer {
     padding: 1em;
     color: white;
     background-color: black;
@@ -154,13 +156,42 @@ header, footer {
     text-align: center;
 }
 
-nav{
-    padding: 1.0em 0.5em;
+nav {
+    padding: 0.5em 0.2em;
+    border-style: double;
+    border-color: #E8CB91;
 }
 
-nav a:hover{
+nav a {
+    display: grid;
+    color: white;
+    letter-spacing: 0.1em;
+    background-color: black;
+    border-color: coral;
+    border: 2px;
+    font-size: 1.5em;
+    padding: 0.2em 1em;
+    padding-left: 2em;
+    text-decoration: ;
+}
+
+nav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    flex: 30%;
 }
 
 
