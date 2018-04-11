@@ -68,7 +68,7 @@ em {
 table {
     border: 2px solid #F00;
     border-collapse: collapse;
-    width: 50%
+    width: 30%;
 }
 
 th {
@@ -167,12 +167,9 @@ nav a {
     color: white;
     letter-spacing: 0.1em;
     background-color: black;
-    border-color: coral;
-    border: 2px;
     font-size: 1.5em;
     padding: 0.2em 1em;
     padding-left: 2em;
-    text-decoration: ;
 }
 
 nav a:hover {
